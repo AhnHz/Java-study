@@ -5,7 +5,7 @@ public class AdvancedForExample {
 		int[] scores = { 95, 71, 84, 93, 87 };
 		
 		int sum = 0;
-		for (int score : scores) {
+		for (int score : scores) {	// scores 배열에서 요소를 하나씩 꺼내서
 			sum = sum + score;
 		}
 		System.out.println("점수 총합 = " + sum);

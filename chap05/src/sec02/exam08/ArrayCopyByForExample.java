@@ -5,11 +5,11 @@ public class ArrayCopyByForExample {
 		int[] oldIntArray = { 1, 2, 3 };
 		int[] newIntArray = new int[5];
 		
-		for(int i=0; i<oldIntArray.length; i++) {
+		for(int i=0; i<oldIntArray.length; i++) {	// 0~2
 			newIntArray[i] = oldIntArray[i];
 		}
 		
-		for(int i=0; i<newIntArray.length; i++) {
+		for(int i=0; i<newIntArray.length; i++) {	// 0~4
 			System.out.print(newIntArray[i] + ", ");
 		}
 	}
