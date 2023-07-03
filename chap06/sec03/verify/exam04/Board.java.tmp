@@ -1,0 +1,11 @@
+package sec03.verify.exam04;
+
+public class Board {
+	String title;
+	String content;
+	String writer;
+	String date;
+	int hitcount;
+
+	Board(String title, String content) {
+		this(title, content, "濡쒓렇
